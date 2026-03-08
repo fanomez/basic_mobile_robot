@@ -98,7 +98,7 @@ def generate_launch_description():
   # Load the diff_drive_controller
   start_diff_drive_controller_cmd = Node(
       package='controller_manager',
-      executable='spawner.py',
+      executable='spawner',
       arguments=['diff_drive_controller', '--param-file', controller_config],
       output='screen'
   )
