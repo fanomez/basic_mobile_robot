@@ -16,7 +16,7 @@ find_package(ament_cmake REQUIRED)
 # Tells ROS what to copy, so ou pakcage works after build
 # ==================================================================== 
 install( 
-  DIRECTORY config launch maps meshes models params rviz worlds 
+  DIRECTORY config launch meshes models rviz
   DESTINATION share/${PROJECT_NAME}
 )
 # ====================================================================
